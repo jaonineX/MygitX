@@ -59,9 +59,10 @@ labels = 'sepal.width', 'sepal.length', 'petal.width', 'petal.length'
 
     
 
-if(st.button("แสดงกราฟวงกลม")):
+if(st.button("แสดงข้อมูล")):
     st.pyplot(fig1)
-    st.button("ไม่แสดงกราฟวงกลม")
+    st.button("ไม่แสดงข้อมูล")
 
 else:
-    st.button("ไม่แสดงกราฟวงกลม")
+    st.button("ไม่แสดงข้อมูล")
+
