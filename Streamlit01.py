@@ -16,6 +16,9 @@ with col3:
     st.image("./img/santosa.jpg")
 
 df=pd.read_csv("./data/iris.csv")
-st.write(df.head(10))
 
-st.button("เเสดงข้อมูลตัวอย่าง")
+if(st.button("เเสดงข้อมูลตัวอย่าง")):
+    st.write(df.head(10))
+    st.button("ไม่เเสดงข้อมูลตัวอย่าง")
+else:    
+    st.button("ไม่เเสดงข้อมูลตัวอย่าง")
