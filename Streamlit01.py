@@ -43,10 +43,10 @@ import matplotlib.pyplot as plt
  # Pie 
 labels = 'sepal.width', 'sepal.length', 'petal.width', 'petal.length'
 
-    x1=df['sepal.width'].mean()
-    x2=df['sepal.length'].mean()
-    x3=df['petal.width'].mean()
-    x4=df['petal.length'].mean()
+x1=df['sepal.width'].mean()
+x2=df['sepal.length'].mean()
+x3=df['petal.width'].mean()
+x4=df['petal.length'].mean()
 
     sizes = [x1, x2, x3, x4]
 
