@@ -39,6 +39,10 @@ else:
 
 import matplotlib.pyplot as plt
 
+
+
+if(st.button("แสดงกราฟวงกลม"))
+st.pyplot(fig1)
 # Pie 
 labels = 'sepal.width', 'sepal.length', 'petal.width', 'petal.length'
 x1=df['sepal.width'].mean()
@@ -55,8 +59,6 @@ ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
 
 st.pyplot(fig1)
 
-if(st.button("แสดงกราฟวงกลม"))
-st.pyplot(fig1)
  st.button("ไม่แสดงกราฟวงกลม")
 else:
     st.button("ไม่แสดงกราฟวงกลม")
