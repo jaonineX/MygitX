@@ -6,7 +6,11 @@ st.header("การนำเสนอข้อมูลกราฟด้วย
 col1,col2,col3,=st.columns(3)
 
 with col1:
-
+    st.header("Versicolor")
+    st.imge("./img/santosa.jpg")
 with col2:
-
+    st.header("Verginica")
+    st.imge("./img/Versicolor.jpg")
 with col3:
+    st.header("Setosa")
+    st.imge("./img/virginica.jpg")
