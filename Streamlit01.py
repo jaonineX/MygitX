@@ -56,7 +56,7 @@ ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
 st.pyplot(fig1)
 
 if(st.button("แสดงกราฟวงกลม")):
-chart_data = pd.DataFrame(
+chart_data = pd.labels(
 {
 # Pie 
 labels = 'sepal.width', 'sepal.length', 'petal.width', 'petal.length'
